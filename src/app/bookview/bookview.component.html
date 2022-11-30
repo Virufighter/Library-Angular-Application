@@ -3,101 +3,18 @@
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
             <div class="row g-3">
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3" *ngFor="let i of book">
                     <div class="card">
-                        <img height="200px" class="rounded-circle" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1311999970l/172763.jpg" class="card-img-top" alt="...">
+                        <img height="200px" class="rounded-circle" src="{{i.image}}" class="card-img-top" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">book of names</h5>
-                          <p class="card-text">$14</p>
+                          <h5 class="card-title">{{i.name}}</h5>
+                          <p class="card-text">${{i.price}}</p>
                       
                           
                         </div>
                       </div>
                 </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://s3.ap-south-1.amazonaws.com/storage.commonfolks.in/docs/products/images_full/code-name-god_FrontImage_809.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">code name God</h5>
-                      <p class="card-text">$14</p>
-                  
-                      
-                    </div>
-                  </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://www.oberlo.com/media/1603897577-image22-1.jpg?w=1824&fit=max" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Harry Potter</h5>
-                      <p class="card-text">$14</p>
-                    </div>    
-                  </div>
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="http://www.targetacademy.in/wp-content/uploads/2019/04/519BiBsrJPL.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">dreamland</h5>
-                      <p class="card-text">$14</p>
-                    </div>    
-                  </div>
-                </div>  
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://st.adda247.com/https://wpassets.adda247.com/wp-content/uploads/multisite/sites/5/2021/03/31084126/jeet-thayil-names-of-the-women-article-image.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Nmaes of women</h5>
-                      <p class="card-text">$14</p>
-                    </div>
-                  </div>      
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://img.etimg.com/photo/msid-53575653,quality-100/.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">name of the wind</h5>
-                      <p class="card-text">$14</p>
-                    </div>
-                  </div>      
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://www.powells.com/portals/0/Images/9780735223721.jpeg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">know by name</h5>
-                      <p class="card-text">$14</p>
-                    </div>  
-                  </div>    
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://s3.ap-south-1.amazonaws.com/storage.commonfolks.in/docs/products/images_full/code-name-god_FrontImage_809.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">code name God</h5>
-                      <p class="card-text">$14</p>
-                    </div>  
-                  </div>div    
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://assets.brightspot.abebooks.a2z.com/dims4/default/58e0da9/2147483647/strip/true/crop/225x338+0+1/resize/253x380!/quality/90/?url=http%3A%2F%2Fabebooks-brightspot.s3.amazonaws.com%2F3a%2Fdb%2Fdddf7673b20aef5b4c251311cee2%2Fscarlet-sky.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Beneath a sky</h5>
-                      <p class="card-text">$14</p>
-
-                    </div>
-                  </div>  
-                </div>
-                <div class="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
-                  <div class="card">
-                    <img height="200px" class="rounded-circle" src="https://akm-img-a-in.tosshub.com/sites/dailyo//story/embed/201508/tintin_080915081945.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Tintin</h5>
-                      <p class="card-text">$14</p>
-                      </div>
-                  </div>    
-                </div>
+                
             </div>
         </div>
     </div>
